@@ -31,7 +31,8 @@ Paragraph default: 1.6
 #45260a
 -Accents:
 -Grays
-
+#888
+#767676 (Lighter gray that allowed on #fff)
 #6f6f6f (Lighter gray that allowed on #fdf2e9)
 #555
 #333
@@ -96,6 +97,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
