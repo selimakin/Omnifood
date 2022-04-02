@@ -11,6 +11,8 @@
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+
+  position: relative;
 }
 
 .logo {
@@ -24,7 +26,7 @@
 .main-nav-list {
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
   list-style: none;
 }
 
@@ -56,6 +58,24 @@
   background-color: #cf711f;
 }
 
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 /******************************/
 /* HERO SECTION */
 /******************************/
@@ -479,9 +499,6 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   overflow: hidden;
-
-  /* Temporary */
-  height: 50rem;
 }
 
 .cta-text-box {
